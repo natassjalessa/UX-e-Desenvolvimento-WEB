@@ -1,0 +1,30 @@
+h1::first-letter{
+    color: rgb(218, 90, 218);
+    font-size: 60px;
+}
+h1{
+    color: blue;
+    font-size: 40px;
+}
+.borda-redonda{
+    border: 5px groove;
+    border-radius: 10px;
+}
+.borda-redonda-dois{
+    border-bottom: 5px groove;
+    border-left: 5px groove;
+    border-right: 5px groove;
+    border-radius: 10px;
+}
+.titulo-verde {
+    color: green;
+    font-size: 30px;
+}
+p:not(.titulo-verde) {
+    font-size: 30px;
+    color: green;
+}
+
+.link-transform{
+    transform: scale(2);
+}
